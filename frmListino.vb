@@ -70,14 +70,14 @@
 
         'nella finestra di progettazione si sceglie di impostare la proprietà font su "Courier New"
         'perchè in tale font ogni carattere ha la stessa larghezza e questo agevola la formattazione 
-        lstListino.Items.Add("NOME".PadRight(15) & "COGNOME".PadRight(20) & "SQUADRA".PadLeft(15) & "RUOLO".PadRight(15))
+        lstListino.Items.Add("NOME".PadRight(15) & "COGNOME".PadRight(20) & "SQUADRA".PadRight(15) & "RUOLO".PadRight(15))
         lstListino.Items.Add("".PadRight(65, "-"))
         For indice = 0 To indiceMax
             With Listino(indice)
                 lstListino.Items.Add(.nome.PadRight(15) &
                                      .cognome.PadRight(20) &
-                                     .squadra.PadLeft(15) &
-                                     .ruolo.PadLeft(15))
+                                     .squadra.PadRight(15) &
+                                     .ruolo.PadRight(15))
             End With
         Next indice
 

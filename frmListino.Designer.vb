@@ -103,7 +103,7 @@ Partial Class frmListino
         '
         'btnProcediCar
         '
-        Me.btnProcediCar.Location = New System.Drawing.Point(60, 55)
+        Me.btnProcediCar.Location = New System.Drawing.Point(12, 58)
         Me.btnProcediCar.Name = "btnProcediCar"
         Me.btnProcediCar.Size = New System.Drawing.Size(158, 25)
         Me.btnProcediCar.TabIndex = 24
@@ -112,7 +112,7 @@ Partial Class frmListino
         '
         'txtNumProdotti
         '
-        Me.txtNumProdotti.Location = New System.Drawing.Point(221, 24)
+        Me.txtNumProdotti.Location = New System.Drawing.Point(173, 27)
         Me.txtNumProdotti.Name = "txtNumProdotti"
         Me.txtNumProdotti.Size = New System.Drawing.Size(58, 20)
         Me.txtNumProdotti.TabIndex = 23
@@ -120,7 +120,7 @@ Partial Class frmListino
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(57, 27)
+        Me.Label4.Location = New System.Drawing.Point(9, 30)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(154, 13)
         Me.Label4.TabIndex = 22
@@ -131,14 +131,14 @@ Partial Class frmListino
         Me.lstListino.Font = New System.Drawing.Font("Courier New", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lstListino.FormattingEnabled = True
         Me.lstListino.ItemHeight = 14
-        Me.lstListino.Location = New System.Drawing.Point(346, 55)
+        Me.lstListino.Location = New System.Drawing.Point(277, 55)
         Me.lstListino.Name = "lstListino"
-        Me.lstListino.Size = New System.Drawing.Size(392, 158)
+        Me.lstListino.Size = New System.Drawing.Size(509, 158)
         Me.lstListino.TabIndex = 21
         '
         'btnVisualizza
         '
-        Me.btnVisualizza.Location = New System.Drawing.Point(346, 25)
+        Me.btnVisualizza.Location = New System.Drawing.Point(277, 25)
         Me.btnVisualizza.Name = "btnVisualizza"
         Me.btnVisualizza.Size = New System.Drawing.Size(70, 24)
         Me.btnVisualizza.TabIndex = 20
@@ -156,7 +156,7 @@ Partial Class frmListino
         '
         'btnCarica
         '
-        Me.btnCarica.Location = New System.Drawing.Point(60, 300)
+        Me.btnCarica.Location = New System.Drawing.Point(12, 303)
         Me.btnCarica.Name = "btnCarica"
         Me.btnCarica.Size = New System.Drawing.Size(52, 24)
         Me.btnCarica.TabIndex = 17
@@ -194,7 +194,7 @@ Partial Class frmListino
         Me.grpProdotto.Controls.Add(Me.txt_squadra)
         Me.grpProdotto.Controls.Add(Me.txt_cognome)
         Me.grpProdotto.Controls.Add(Me.txt_nome)
-        Me.grpProdotto.Location = New System.Drawing.Point(60, 139)
+        Me.grpProdotto.Location = New System.Drawing.Point(12, 142)
         Me.grpProdotto.Name = "grpProdotto"
         Me.grpProdotto.Size = New System.Drawing.Size(259, 155)
         Me.grpProdotto.TabIndex = 19
